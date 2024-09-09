@@ -5,11 +5,10 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
-        fizzBuzz();
+        fizzBuzz(1);
     }
 
-    private static void fizzBuzz() {
-        int i = 1;
+    public static void fizzBuzz(int i) {
         while (i <= 100) {
 
             // Find out which numbers divide i.
